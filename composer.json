@@ -1,0 +1,28 @@
+{
+    "name": "user/m3u_downloader",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Tomasz Solik",
+            "email": "tomaszsolik@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4" : {
+            "App\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4" : {
+            "App\\Tests\\" : "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.0",
+        "guzzlehttp/guzzle": "^7.0@dev",
+        "gemorroj/m3u-parser": "dev-master",
+        "monolog/monolog": "^2.0@dev",
+        "symfony/yaml": "^5.2@dev"
+    }
+}

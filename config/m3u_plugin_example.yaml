@@ -1,0 +1,7 @@
+url: https://url-to-m3u.com
+method: 'POST'
+headers: []
+form_params:
+  id: 01
+  name: 'example'
+explode_by: 'example:'
