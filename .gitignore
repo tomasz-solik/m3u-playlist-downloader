@@ -1,11 +1,17 @@
-# PhpStorm
+###> PhpStorm
 /.idea
 
-# Logs
+###> Var
+/var/
+/vendor/
 /var/logs/*
-!var/log/.gitkeep
+!var/logs/.gitkeep
 
-# PHPUnit
+###> PHPUnit
 /app/phpunit.xml
 /phpunit.xml
+
+###> Docker
+.docker/
+docker-compose.yml
 
